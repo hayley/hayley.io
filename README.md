@@ -4,8 +4,7 @@ This repo is based off of the gatsby-starter-blog.
 
 Gatsby is a static site generator that imho, appears to me to be somewhat
 analogous to middleman but based upon writing reactjs components for everything
-instead of the traditional template/partial as reactjs model you'd see
-elsewhere.
+instead of the traditional template/partial model you'd see elsewhere.
 
 My whole goal at this point is to see if I can seamlessly integrate reactrb
 components into the project.
