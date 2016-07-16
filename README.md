@@ -27,6 +27,6 @@ Module not found: Error: Cannot resolve module 'babel' in /Users/hayley/.gem/rub
  @ ./~/opal-webpack?file=opal%2Fbase&cacheIdentifier=%7B%22opal-loader%22%3A%221.0.9%22%2C%22opal-compiler%22%3A%220.9.4%22%7D&requirable=true!/Users/hayley/.gem/ruby/2.3.1/gems/opal-0.9.4/opal/opal/base.rb 1:21-101
 ```
 
-To those familiar with webpack, gatsby uses
-https://github.com/lewie9021/webpack-configurator to do webpack config
-modifications in the `gatsby-node.js/coffee` file.
+To those familiar with webpack, gatsby does things a little bit differently and
+uses https://github.com/lewie9021/webpack-configurator to do webpack config
+modifications in a `gatsby-node.js/coffee` file.
