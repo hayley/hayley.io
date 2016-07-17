@@ -36,6 +36,7 @@ class BlogIndex extends React.Component {
       <DocumentTitle title={config.blogTitle}>
         <div>
           <Bio />
+          <TestComponent />
           <ul>
             {pageLinks}
           </ul>

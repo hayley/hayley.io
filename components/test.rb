@@ -1,5 +1,5 @@
-require 'opal'
-require 'reactrb'
+# require 'opal'
+# require 'reactrb'
 
 puts 'hayleysayshi'
 

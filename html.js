@@ -36,6 +36,8 @@ module.exports = React.createClass({
         </head>
         <body className="landing-page">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
+          <script src='https://code.jquery.com/jquery-2.1.4.min.js' />
+          <script src='https://rawgit.com/hayley/reactrb-express/master/reactrb-express.js' />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
         </body>
       </html>
