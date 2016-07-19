@@ -3,8 +3,11 @@
 
 puts 'hayleysayshi'
 
-class TestComponent < React::Component::Base
-  render do
-    'hello'
+module Foo
+  class TestComponent < React::Component::Base
+    export_component
+    render do
+      'hello'
+    end
   end
 end
